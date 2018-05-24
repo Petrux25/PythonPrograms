@@ -1,8 +1,13 @@
 
 #Function : BinToDecimal
-#Recieves Binary number type string
-#Return decimal value of the string
+#Input: Binary string number
+#Output: decimal value of the string
+#E.g
+# >>> BinToDecimal("1010")
+# >>> 10
+
 def BinToDecimal(BinNumber):
-    Decimal = int(BinNumber,2)
-    return Decimal
-#BinToDecimal
+    Decimal = int(BinNumber,2) #Converts string to
+    return Decimal             #int. 2 is the base
+
+###########BinToDecimal##############
